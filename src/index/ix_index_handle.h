@@ -78,4 +78,6 @@ class IxIndexHandle {
 
     // for index test
     Rid get_rid(const Iid &iid) const;
+
+    void init(IxNodeHandle *node) ;
 };
